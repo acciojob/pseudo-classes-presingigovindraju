@@ -1,38 +1,32 @@
 /*  your css code here. If applicable */
-:root {
-    background-color: rgb(135, 206, 235);
+:root{background-color:rgb(135, 206, 235);
 }
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+div.selector p:first-child{
+	background-color:black;
+	color:white;
+		}
+div.selector p:nth-child(2){
+	color:black;
+	}
+div.selector p:last-child{
+	color:red;
+	}
+li{width:50%;
+   padding:10px;
+	background-color:gray;
 }
-
-.page-content {
-    padding: 20px;
+.first{
+	background-color:white;
 }
-
-article p:first-child {
-    color: white;
-    background-color: black;
-    padding: 10px;
+#front{
+	font-size:22px;
 }
-
-article p:nth-child(2) {
-    color: inherit;
+#last{
+	font-size:22px;
 }
-
-article p:last-child {
-    color: red;
+#third{
+	background-color:pink;
 }
-
-.custom-list {
-    list-style: none;
-    padding: 0;
-    width: 50%;
-}
-
 .custom-list li {
     background-color: gray;
     padding: 10px;
